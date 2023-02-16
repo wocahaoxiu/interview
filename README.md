@@ -16,3 +16,16 @@ Status
 
 * [tabler](https://github.com/tabler/tabler)
 * [antdesign](https://antdv.com/components/overview)
+
+# 实现建议
+
+## 页面结构
+
+* 注册页面
+* 登录页面
+* 服务页面
+
+## 页面导航
+```
+注册 -> 登录 -> 服务 -> 登录
+```
