@@ -190,7 +190,7 @@ POST
 -   (1) 基于Vue构建前端可视化；
 -   (2) UI框架采用[AntDesign](https://antdv.com/components/overview)或[tabler](https://github.com/tabler/tabler)之一；
 -   (3) 自主设计单页面，提供一定的导航能力，能够方便查看不同服务当前工作状态；
--   (4) 可提供基于eChart等曲线显示。
+-   (4) 可提供基于[eChart](https://github.com/ecomfe/vue-echarts)等曲线显示。
 -   (5) 实现建议
       - 页面结构
          - 欢迎页面
