@@ -12,7 +12,7 @@ Status前端上机面试题目
 ### (1) SignUp 注册
 地址
 ```
-  http://{host}:{port}/user/sign_up
+  https://{host}:{port}/user/sign_up
 ```
 方式
 ```
@@ -38,7 +38,7 @@ POST
 ### (2) SignIn 登录
 地址
 ```
-  http://{host}:{port}/user/sign_in
+  https://{host}:{port}/user/sign_in
 ```
 方式
 ```
@@ -68,7 +68,7 @@ POST
 ### (3) SignOut 登出
   地址
 ```
- http://{host}:{port}/user/sign_out
+ https://{host}:{port}/user/sign_out
 ```
   方式
 ```
@@ -93,7 +93,7 @@ POST
 ### (3) Service 获取Websocket服务地址
   地址
 ```
-   http://{host}:{port}/service
+   https://{host}:{port}/service
 ```
   方式
 ```
@@ -115,6 +115,13 @@ POST
         "data": { "url":"/ws/406062ca" }
       }
 ```
+
+注意，需要前端拼接WebSocket地址
+
+```javascript
+  'wss://{host}:{port}' + url
+```
+
 ## 2 WebSocket接口
 
 ###  (1) 消息发送
