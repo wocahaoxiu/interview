@@ -191,7 +191,7 @@ POST
 
 ### （2）启动方式
 
-双击运行`status.exe`后端按照默认参数启动，服务器地址为`https://localhost:8080`。
+双击运行`status.exe`后端按照默认参数启动，服务器地址为`https://localhost:9888`。
 
 也可以通过`status.exe --host {host} --port {port}`更改默认端口及地址。
 
